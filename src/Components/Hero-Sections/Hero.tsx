@@ -4,7 +4,6 @@ import React from "react";
 import { ReactTyped } from "react-typed";
 import Image from "next/image";
 import Hero1 from "@/public/Hero/Hero1.png";
-
 export default function Hero() {
   return (
     <div className=" w-full mx-auto p-4">

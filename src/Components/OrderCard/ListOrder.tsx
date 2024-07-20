@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import { data } from "../Data/data.js";
+import Link from "next/link.js";
 
 export default function ListOrder() {
   const [food, setFoods] = useState(data);
-
   const filterType = (category) => {
     setFoods(
       data.filter((item) => {
@@ -93,29 +93,30 @@ export default function ListOrder() {
           </div>
         </div>
       </div>
-
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
-        {food.map((item, index) => (
-          <div
-            key={index}
-            className="border bg-white text-yellow-800 shadow-lg hover:scale-110 duration-300"
-          >
-            <img
-              src={item.image}
-              alt={item.name}
-              className="w-full h-[200px] object-cover rounded-t-lg"
-            />
-            <div className="flex justify-between px-2 py-4">
-              <p className="font-abc">{item.name}</p>
-              <p>
-                <span className="bg-black text-yellow-800 p-1 rounded-full">
-                  {item.price}
-                </span>
-              </p>
+      <Link href="/AddCard">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
+          {food.map((item, index) => (
+            <div
+              key={index}
+              className="border bg-white text-yellow-800 shadow-lg hover:scale-110 duration-300"
+            >
+              <img
+                src={item.image}
+                alt={item.name}
+                className="w-full h-[200px] object-cover rounded-t-lg"
+              />
+              <div className="flex justify-between px-2 py-4">
+                <p className="font-abc">{item.name}</p>
+                <p>
+                  <span className="bg-black text-yellow-800 p-1 rounded-full">
+                    {item.price}
+                  </span>
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      </Link>
     </div>
   );
 }

@@ -1,10 +1,11 @@
+"use client";
 import React from "react";
 import Image from "next/image";
-import Cocacola2 from "@/public/Cocacola2.svg";
-import Grab2 from "@/public/Grab2.svg";
-import Paypal2 from "@/public/Paypal2.svg";
-import Panda from "@/public/Panda.svg";
-import Visa from "@/public/Visa.svg";
+import Cocacola2 from "@/public/LogoCloud/Cocacola2.svg";
+import Grab2 from "@/public/LogoCloud/Grab2.svg";
+import Paypal2 from "@/public/LogoCloud/Paypal2.svg";
+import Panda from "@/public/LogoCloud/Panda.svg";
+import Visa from "@/public/LogoCloud/Visa.svg";
 
 export default function Logo() {
   return (
@@ -17,8 +18,8 @@ export default function Logo() {
           <Image
             alt="Transistor"
             src={Cocacola2}
-            width={200}
-            height={50}
+            width={158}
+            height={48}
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
           />
           <Image

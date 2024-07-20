@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 export default function Book() {
   return (
@@ -161,7 +162,6 @@ export default function Book() {
                 </div>
               </div>
             </div>
-
             <div className="mt-8 lg:w-1/2 lg:mx-6">
               <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
                 <form className="mt-6">

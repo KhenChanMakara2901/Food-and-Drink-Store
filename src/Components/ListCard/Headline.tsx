@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { BsFillCartCheckFill } from "react-icons/bs";
 import Link from "next/link";
@@ -26,7 +27,7 @@ export default function Headline() {
         <Image
           className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl "
           src={Card1}
-          alt="/"
+          alt="Image"
         />
       </div>
       <div className="rounded-xl relative">
@@ -47,7 +48,7 @@ export default function Headline() {
         <Image
           className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
           src={Card2}
-          alt="/"
+          alt="Image"
         />
       </div>
       <div className="rounded-xl relative">
@@ -70,7 +71,7 @@ export default function Headline() {
         <Image
           className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl "
           src={Card3}
-          alt="/"
+          alt="Image"
         />
       </div>
     </div>

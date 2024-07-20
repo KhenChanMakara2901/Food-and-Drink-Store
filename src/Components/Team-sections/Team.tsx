@@ -1,4 +1,9 @@
+"use client";
 import React from "react";
+import Image from "next/image";
+import Avatar1 from "@/public/Avatar/Avatar1.png";
+import Avatar2 from "@/public/Avatar/Avatar2.png";
+import Avatar3 from "@/public/Avatar/Avatar3.png";
 
 export default function Team() {
   return (
@@ -14,9 +19,9 @@ export default function Team() {
 
           <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div className="w-full max-w-xs text-center">
-              <img
+              <Image
                 className="object-cover object-center w-full h-48 mx-auto rounded-lg"
-                src="https://uiparadox.co.uk/public/templates/royalfare/assets/media/team/t_1.png"
+                src={Avatar1}
                 alt="avatar"
               />
 
@@ -31,9 +36,9 @@ export default function Team() {
             </div>
 
             <div className="w-full max-w-xs text-center">
-              <img
+              <Image
                 className="object-cover object-center w-full h-48 mx-auto rounded-lg"
-                src="https://uiparadox.co.uk/public/templates/royalfare/assets/media/team/t_2.png"
+                src={Avatar2}
                 alt="avatar"
               />
 
@@ -48,9 +53,9 @@ export default function Team() {
             </div>
 
             <div className="w-full max-w-xs text-center">
-              <img
+              <Image
                 className="object-cover object-center w-full h-48 mx-auto rounded-lg"
-                src="https://uiparadox.co.uk/public/templates/royalfare/assets/media/team/t_3.png"
+                src={Avatar3}
                 alt="avatar"
               />
 

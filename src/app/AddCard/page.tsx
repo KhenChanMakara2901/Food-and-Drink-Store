@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 export default function page() {
@@ -23,7 +24,7 @@ export default function page() {
                     <input
                       type="text"
                       id="full_name"
-                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400"
                       placeholder="Your Card name"
                       required
                     />
@@ -36,7 +37,7 @@ export default function page() {
                     <input
                       type="text"
                       id="card-number-input"
-                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pe-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500  dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pe-10 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400"
                       placeholder="xxxx-xxxx-xxxx-xxxx"
                       pattern="^4[0-9]{12}(?:[0-9]{3})?$"
                       required
@@ -110,7 +111,7 @@ export default function page() {
                       type="number"
                       id="cvv-input"
                       aria-describedby="helper-text-explanation"
-                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400"
                       placeholder="•••"
                       required
                     />
@@ -174,39 +175,6 @@ export default function page() {
                       $$$$
                     </dd>
                   </dl>
-                </div>
-
-                <div className="mt-6 flex items-center justify-center gap-8">
-                  <img
-                    className="h-8 w-auto dark:hidden"
-                    src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/brand-logos/paypal.svg"
-                    alt=""
-                  />
-                  <img
-                    className="hidden h-8 w-auto dark:flex"
-                    src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/brand-logos/paypal-dark.svg"
-                    alt=""
-                  />
-                  <img
-                    className="h-8 w-auto dark:hidden"
-                    src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/brand-logos/visa.svg"
-                    alt=""
-                  />
-                  <img
-                    className="hidden h-8 w-auto dark:flex"
-                    src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/brand-logos/visa-dark.svg"
-                    alt=""
-                  />
-                  <img
-                    className="h-8 w-auto dark:hidden"
-                    src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/brand-logos/mastercard.svg"
-                    alt=""
-                  />
-                  <img
-                    className="hidden h-8 w-auto dark:flex"
-                    src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/brand-logos/mastercard-dark.svg"
-                    alt=""
-                  />
                 </div>
               </div>
             </div>

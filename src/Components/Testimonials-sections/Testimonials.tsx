@@ -1,4 +1,7 @@
+"use client";
 import React from "react";
+import Image from "next/image";
+import Customer from "@/public/Customer/Customer.png";
 
 export default function Testimonials() {
   return (
@@ -14,10 +17,10 @@ export default function Testimonials() {
             </h1>
 
             <div className="mt-10 lg:mt-20 lg:flex lg:items-center">
-              <img
+              <Image
                 className="object-cover object-center w-full lg:w-[32rem] rounded-lg h-96"
-                src="https://business.getonbloc.com/wp-content/uploads/2020/09/restaurant-customer-service1.jpg"
-                alt=""
+                src={Customer}
+                alt="Image"
               />
 
               <div className="mt-8 lg:px-10 lg:mt-0">

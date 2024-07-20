@@ -2,6 +2,8 @@
 import Link from "next/link";
 import React from "react";
 import { ReactTyped } from "react-typed";
+import Image from "next/image";
+import Hero1 from "@/public/Hero/Hero1.png";
 
 export default function Hero() {
   return (
@@ -27,9 +29,9 @@ export default function Hero() {
             <Link href="/Booking">MAKE RESERVATION</Link>
           </button>
         </div>
-        <img
+        <Image
           className="w-full max-h-[500px] object-cover"
-          src="https://images.pexels.com/photos/14511753/pexels-photo-14511753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src={Hero1}
           alt="/"
         />
       </div>

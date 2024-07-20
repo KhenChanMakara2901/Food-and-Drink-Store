@@ -29,7 +29,6 @@ export default function Headline() {
           alt="/"
         />
       </div>
-
       <div className="rounded-xl relative">
         <div className="absolute w-full h-full bg-black/50 rounded-xl text-white">
           <p className="font-Pro text-2xl px-2 pt-4 text-stone-200">
@@ -46,7 +45,7 @@ export default function Headline() {
           </Link>
         </div>
         <Image
-          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl "
+          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
           src={Card2}
           alt="/"
         />

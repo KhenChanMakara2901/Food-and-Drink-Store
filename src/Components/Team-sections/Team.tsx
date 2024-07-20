@@ -1,0 +1,88 @@
+import React from "react";
+
+export default function Team() {
+  return (
+    <div className="max-w-[1640px] px-4 py-2">
+      <section>
+        <div className="container px-6 py-8 mx-auto">
+          <h2 className="text-2xl font-abc text-left capitalize lg:text-3xl dark:text-neutral-100">
+            Our Dynamic
+            <span className="text-yellow-500 underline underline-offset-8 text-4xl">
+              Fast Food Team
+            </span>
+          </h2>
+
+          <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="w-full max-w-xs text-center">
+              <img
+                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                src="https://uiparadox.co.uk/public/templates/royalfare/assets/media/team/t_1.png"
+                alt="avatar"
+              />
+
+              <div className="mt-2">
+                <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200 font-Pro">
+                  Sarah Johnson
+                </h3>
+                <span className="mt-1 font-medium text-gray-600 dark:text-yellow-600 font-Pro">
+                  Waiter
+                </span>
+              </div>
+            </div>
+
+            <div className="w-full max-w-xs text-center">
+              <img
+                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                src="https://uiparadox.co.uk/public/templates/royalfare/assets/media/team/t_2.png"
+                alt="avatar"
+              />
+
+              <div className="mt-2">
+                <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200 font-Pro">
+                  Ethan Rodriguez
+                </h3>
+                <span className="mt-1 font-medium text-gray-600 dark:text-yellow-600 font-Pro">
+                  Head Chef
+                </span>
+              </div>
+            </div>
+
+            <div className="w-full max-w-xs text-center">
+              <img
+                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                src="https://uiparadox.co.uk/public/templates/royalfare/assets/media/team/t_3.png"
+                alt="avatar"
+              />
+
+              <div className="mt-2">
+                <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200 font-Pro">
+                  Emily Brooks
+                </h3>
+                <span className="mt-1 font-medium text-gray-600 dark:text-yellow-600 font-Pro">
+                  Fry Chef
+                </span>
+              </div>
+            </div>
+
+            <div className="w-full max-w-xs text-center">
+              <img
+                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                src="https://uiparadox.co.uk/public/templates/royalfare/assets/media/team/t_4.png"
+                alt="avatar"
+              />
+
+              <div className="mt-2">
+                <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200 font-Pro">
+                  Megan Robinson
+                </h3>
+                <span className="mt-1 font-medium text-gray-600 dark:text-yellow-600 font-Pro">
+                  Barista
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

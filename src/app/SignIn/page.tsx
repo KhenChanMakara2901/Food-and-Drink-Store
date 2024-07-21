@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Food from "@/public/Sign In/Food.svg";
+import Link from "next/link";
 export default function page() {
   return (
     <div className="max-w-[1640px] px-4 py-2">
@@ -12,7 +13,7 @@ export default function page() {
             src={Food}
             className="mx-auto h-10 w-auto"
           />
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 font-Pro">
             Sign in to your account
           </h2>
         </div>
@@ -37,7 +38,6 @@ export default function page() {
                 />
               </div>
             </div>
-
             <div>
               <div className="flex items-center justify-between">
                 <label
@@ -50,7 +50,7 @@ export default function page() {
                   <a
                     target="-blank"
                     href="https://myaccount.google.com/intro/signinoptions/password"
-                    className="font-semibold text-indigo-600 hover:text-indigo-500"
+                    className="text-indigo-600 hover:text-indigo-500"
                   >
                     Forgot password?
                   </a>
@@ -67,23 +67,21 @@ export default function page() {
                 />
               </div>
             </div>
-
             <div>
               <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="flex w-full justify-center rounded-md bg-blue-700 px-3 py-1.5 text-sm font-Pro text-white shadow-sm hover:bg-yellow-500 hover:text-gray-950"
               >
-                Sign in
+                <Link href="/">Sign In</Link>
               </button>
             </div>
           </form>
-
           <p className="mt-10 text-center text-sm text-gray-500">
             Not a member?
             <a
               target="-blank"
               href="https://accounts.google.com/v3/signin/identifier?dsh=S1812573153%3A1655944654029516&flowEntry=ServiceLogin&flowName=WebLiteSignIn&ifkv=AX3vH39E0iYVTmn-NoMNM_C35EPrno8LWsRx2Qhr0HApkVLZ-Zc_Vql8ouaSQOiXzEmthrpOPAV5"
-              className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+              className=" text-indigo-600 hover:text-gray-950 font-Pro"
             >
               Sign Up with Google
             </a>

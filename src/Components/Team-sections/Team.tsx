@@ -17,7 +17,6 @@ export default function Team() {
               Fast Food Team
             </span>
           </h2>
-
           <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div className="w-full max-w-xs text-center">
               <Image
@@ -25,7 +24,6 @@ export default function Team() {
                 src={Avatar1}
                 alt="avatar"
               />
-
               <div className="mt-2">
                 <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200 font-Pro">
                   Sarah Johnson
@@ -35,14 +33,12 @@ export default function Team() {
                 </span>
               </div>
             </div>
-
             <div className="w-full max-w-xs text-center">
               <Image
                 className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
                 src={Avatar2}
                 alt="avatar"
               />
-
               <div className="mt-2">
                 <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200 font-Pro">
                   Ethan Rodriguez
@@ -52,14 +48,12 @@ export default function Team() {
                 </span>
               </div>
             </div>
-
             <div className="w-full max-w-xs text-center">
               <Image
                 className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
                 src={Avatar3}
                 alt="avatar"
               />
-
               <div className="mt-2">
                 <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200 font-Pro">
                   Emily Brooks
@@ -69,14 +63,12 @@ export default function Team() {
                 </span>
               </div>
             </div>
-
             <div className="w-full max-w-xs text-center">
               <Image
                 className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
                 src={Avatar4}
                 alt="avatar"
               />
-
               <div className="mt-2">
                 <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200 font-Pro">
                   Megan Robinson

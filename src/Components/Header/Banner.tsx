@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import { XMarkIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 export default function banner() {
   return (
     <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-300 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
@@ -28,7 +30,7 @@ export default function banner() {
         />
       </div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-        <p className="text-sm leading-6 text-yellow-800">
+        <p className="text-sm leading-6 text-yellow-800 animate-slide-in">
           <strong className="font-Logo text-yellow-800">
             Plan B Burger Drink and Food
           </strong>
@@ -42,12 +44,12 @@ export default function banner() {
           Plan B Burger Reward member! Get 10% bonus 29th–30th June! Coming
           soon...
         </p>
-        <a
-          href="#"
+        <Link
+          href="/Menu"
           className="flex-none rounded-full bg-white px-3.5 py-1 text-sm font-semibold text-yellow-800 shadow-sm  hover:scale-110 border-yellow-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
           Discount now!! <span aria-hidden="true">&rarr;</span>
-        </a>
+        </Link>
       </div>
       <div className="flex flex-1 justify-end">
         <button

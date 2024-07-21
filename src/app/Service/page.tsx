@@ -65,7 +65,7 @@ export default function page() {
                 <Image
                   className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36"
                   src={Online}
-                  alt="blog"
+                  alt="Image"
                 />
                 <div className="px-6 py-8">
                   <h4 className="mt-4 text-2xl font-semibold text-yellow-500">
@@ -79,13 +79,13 @@ export default function page() {
               </div>
             </div>
           </a>
-          <a href="">
+          <a href="/">
             <div className="flex w-full">
               <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-gray-950 shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <Image
                   className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36"
                   src={Support}
-                  alt="blog"
+                  alt="Image"
                 />
                 <div className="px-6 py-8">
                   <h4 className="mt-4 text-2xl font-Pro text-yellow-500">
@@ -99,13 +99,13 @@ export default function page() {
               </div>
             </div>
           </a>
-          <a href="">
+          <a href="/">
             <div className="flex w-full">
               <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-gray-950 shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <Image
                   className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36"
                   src={Birthday}
-                  alt="blog"
+                  alt="Image"
                 />
                 <div className="px-6 py-8">
                   <h4 className="mt-4 text-2xl font-Pro text-yellow-500">

@@ -12,7 +12,6 @@ export default function ListOrder() {
       })
     );
   };
-
   const filterPrice = (price) => {
     setFoods(
       data.filter((item) => {
@@ -26,7 +25,6 @@ export default function ListOrder() {
         Our
         <span className="text-yellow-500 text-5xl">↓Products↓</span>
       </h1>
-
       <div className="flex flex-col lg:flex-row justify-between">
         <div>
           <p className="font-bold text-zinc-300 font-Pro">Category</p>

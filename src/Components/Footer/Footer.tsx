@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-
 export default function Footer() {
   return (
     <div className="max-w-full mx-auto p-4 py-2">
@@ -79,7 +78,8 @@ export default function Footer() {
                     Newsletter—
                   </h3>
                   <p className="text-white font-Pro">
-                    Tamen quem nulla quae legam multos
+                    Far far away, behind the word mountains, far from the
+                    countries
                   </p>
                 </div>
               </div>

@@ -2,7 +2,6 @@
 import Testimonials from "@/src/Components/Testimonials-sections/Testimonials";
 import React from "react";
 import CountUp from "react-countup";
-
 export default function page() {
   return (
     <div className="max-w-[1640px] px-4 py-1">

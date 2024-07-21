@@ -7,17 +7,16 @@ import {
   MdRestaurantMenu,
   MdDeliveryDining,
   MdOutlineRestaurantMenu,
-  MdContactSupport,
   MdBookmarkAdded,
   MdRealEstateAgent,
 } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
 import { IoFastFoodSharp } from "react-icons/io5";
+import { RiCustomerService2Fill } from "react-icons/ri";
 import Link from "next/link";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
-
   return (
     <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 align-baseline">
       <div className="flex item-center">
@@ -29,7 +28,7 @@ export default function Navbar() {
         </div>
 
         <IoFastFoodSharp className="mt-1 -ml-0 text-yellow-500 " size={40} />
-        <h1 className=" text-2xl xl:text-2xl sm:text-3xl lg:text-2xl  px-2 mt-3 text-yellow-500 font-Logo animate-slide-in">
+        <h1 className="text-2xl xl:text-2xl sm:text-3xl lg:text-2xl px-2 mt-3 text-yellow-500 font-Logo animate-slide-in">
           Plan B <span className="font-Logo text-white">Burger </span>
         </h1>
         <div className="hidden lg:flex justify-center ml-40 animate-slide-in">
@@ -48,7 +47,7 @@ export default function Navbar() {
               <li className="text-xl py-4 flex ">
                 <MdRestaurantMenu size={25} className="mr-2" />
                 <Link
-                  className="  hover:underline hover:scale-105  font-abc"
+                  className="hover:underline hover:scale-105  font-abc"
                   href="/Menu"
                 >
                   Menu
@@ -67,8 +66,8 @@ export default function Navbar() {
               <li className="text-xl py-4 flex ">
                 <MdDeliveryDining size={27} className="mr-2" />
                 <Link
-                  className="  hover:underline hover:scale-105 font-abc"
-                  href="#"
+                  className="hover:underline hover:scale-105 font-abc"
+                  href="/"
                 >
                   Delivery
                 </Link>
@@ -76,19 +75,19 @@ export default function Navbar() {
               <li className="text-xl py-4 flex ">
                 <IoIosContact size={27} className="mr-2" />
                 <Link
-                  className="  hover:underline hover:scale-105  font-abc"
+                  className="hover:underline hover:scale-105  font-abc"
                   href="/Contact"
                 >
                   Contact
                 </Link>
               </li>
               <li className="text-xl py-4 flex ">
-                <MdContactSupport size={27} className="mr-2" />
+                <RiCustomerService2Fill size={27} className="mr-2" />
                 <Link
-                  className="  hover:underline hover:scale-105  font-abc"
+                  className="hover:underline hover:scale-105  font-abc"
                   href="/Service"
                 >
-                  Support
+                  Service
                 </Link>
               </li>
             </ul>
@@ -106,7 +105,6 @@ export default function Navbar() {
       ) : (
         " "
       )}
-
       <div
         className={
           nav
@@ -119,7 +117,6 @@ export default function Navbar() {
           size={25}
           className="absolute right-4 top-4 cursor-pointer"
         />
-
         <h2 className="text-xl p-4 text-yellow-600  font-serif font-Own">
           DRINK <span className="font-bold">AND FOOD</span>
         </h2>
@@ -128,7 +125,7 @@ export default function Navbar() {
             <li className="text-xl py-4 flex ">
               <TbHomeFilled size={28} className="mr-2" />
               <Link
-                className=" hover:scale-95 hover:underline font-abc"
+                className="hover:scale-95 hover:underline font-abc"
                 href="/"
               >
                 Home
@@ -137,7 +134,7 @@ export default function Navbar() {
             <li className="text-xl py-4 flex ">
               <MdOutlineRestaurantMenu size={28} className="mr-2" />
               <Link
-                className=" hover:scale-95 hover:underline font-abc"
+                className="hover:scale-95 hover:underline font-abc"
                 href="/Menu"
               >
                 Menu
@@ -154,26 +151,29 @@ export default function Navbar() {
             </li>
             <li className="text-xl py-4 flex ">
               <MdDeliveryDining size={30} className="mr-2" />
-              <a className=" hover:scale-95 hover:underline font-abc" href="#">
+              <Link
+                className=" hover:scale-95 hover:underline font-abc"
+                href="/"
+              >
                 Delivery
-              </a>
+              </Link>
             </li>
             <li className="text-xl py-4 flex ">
               <IoIosContact size={30} className="mr-2" />
               <Link
-                className=" hover:scale-95 hover:underline font-abc"
+                className="hover:scale-95 hover:underline font-abc"
                 href="/Contact"
               >
                 Contact Us
               </Link>
             </li>
             <li className="text-xl py-4 flex ">
-              <MdContactSupport size={30} className="mr-2" />
+              <RiCustomerService2Fill size={30} className="mr-2" />
               <Link
-                className=" hover:scale-95 hover:underline font-abc"
+                className="hover:scale-95 hover:underline font-abc"
                 href="/Service"
               >
-                Support
+                Service
               </Link>
             </li>
             <li className="text-xl py-4 flex ">

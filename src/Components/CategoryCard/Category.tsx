@@ -14,7 +14,7 @@ export default function Category() {
         {categories.map((item, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg p-4 flex justify-between items-center"
+            className="bg-white  p-4 flex justify-between items-center rounded-3xl"
           >
             <h2 className="font-abc sm:text-xl">{item.name}</h2>
             <img src={item.image} alt={item.name} className="w-20" />

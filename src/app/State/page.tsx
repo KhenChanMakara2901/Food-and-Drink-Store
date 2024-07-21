@@ -1,8 +1,9 @@
 "use client";
+import Testimonials from "@/src/Components/Testimonials-sections/Testimonials";
 import React from "react";
 import CountUp from "react-countup";
 
-export default function State() {
+export default function page() {
   return (
     <div className="max-w-[1640px] px-4 py-1">
       <section>
@@ -45,6 +46,7 @@ export default function State() {
           </div>
         </div>
       </section>
+      <Testimonials />
     </div>
   );
 }

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Avatar1 from "@/public/Avatar/Avatar1.png";
 import Avatar2 from "@/public/Avatar/Avatar2.png";
 import Avatar3 from "@/public/Avatar/Avatar3.png";
+import Avatar4 from "@/public/Avatar/Avatar4.png";
 
 export default function Team() {
   return (
@@ -20,7 +21,7 @@ export default function Team() {
           <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div className="w-full max-w-xs text-center">
               <Image
-                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
                 src={Avatar1}
                 alt="avatar"
               />
@@ -37,7 +38,7 @@ export default function Team() {
 
             <div className="w-full max-w-xs text-center">
               <Image
-                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
                 src={Avatar2}
                 alt="avatar"
               />
@@ -54,7 +55,7 @@ export default function Team() {
 
             <div className="w-full max-w-xs text-center">
               <Image
-                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
                 src={Avatar3}
                 alt="avatar"
               />
@@ -70,9 +71,9 @@ export default function Team() {
             </div>
 
             <div className="w-full max-w-xs text-center">
-              <img
-                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
-                src="https://uiparadox.co.uk/public/templates/royalfare/assets/media/team/t_4.png"
+              <Image
+                className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
+                src={Avatar4}
                 alt="avatar"
               />
 

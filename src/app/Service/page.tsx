@@ -1,5 +1,13 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import Chef from "@/public/Service/Chef.png";
+import Quality from "@/public/Service/Quality.png";
+import Online from "@/public/Service/Online.png";
+import Support from "@/public/Service/Support.png";
+import Birthday from "@/public/Service/Birthday.png";
+import Logo from "@/src/Components/LogoCloud/Logo";
+
 export default function page() {
   return (
     <div className="max-w-[1640px] px-4 py-1">
@@ -14,9 +22,9 @@ export default function page() {
           <a href="/">
             <div className="flex w-full">
               <div className="relative flex flex-col items-center m-1 transition duration-300 ease-in-out delay-150 transform bg-gray-950 shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-                <img
+                <Image
                   className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36"
-                  src="https://img.freepik.com/free-photo/confident-young-handsome-cook-chef-uniform-showing-thumbs-up-isolated-white-wall_141793-101126.jpg?t=st=1721304703~exp=1721308303~hmac=05168aca3ea789dfee4a12dbe4e1add700525abb40e048fa8bbe570faebc3506&w=1800"
+                  src={Chef}
                   alt="Service"
                 />
                 <div className="px-6 py-8">
@@ -34,9 +42,9 @@ export default function page() {
           <a href="/">
             <div className="flex w-full">
               <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-gray-950 shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-                <img
+                <Image
                   className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36"
-                  src="https://thumbs.dreamstime.com/b/good-best-food-icon-logo-design-element-can-be-used-as-as-complement-to-95624271.jpg"
+                  src={Quality}
                   alt="Service"
                 />
                 <div className="px-6 py-8">
@@ -54,9 +62,9 @@ export default function page() {
           <a href="/">
             <div className="flex w-full">
               <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-gray-950 shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-                <img
+                <Image
                   className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36"
-                  src="https://www.shutterstock.com/image-vector/shopping-cart-check-mark-icon-600nw-1708233319.jpg"
+                  src={Online}
                   alt="blog"
                 />
                 <div className="px-6 py-8">
@@ -74,9 +82,9 @@ export default function page() {
           <a href="">
             <div className="flex w-full">
               <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-gray-950 shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-                <img
+                <Image
                   className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36"
-                  src="https://img.freepik.com/premium-vector/24-hour-service-iconheadphone-talk-support-phone-consult-customer-problems_68708-3344.jpg"
+                  src={Support}
                   alt="blog"
                 />
                 <div className="px-6 py-8">
@@ -94,9 +102,9 @@ export default function page() {
           <a href="">
             <div className="flex w-full">
               <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-gray-950 shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-                <img
+                <Image
                   className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36"
-                  src="https://www.statesmanshs.org/wp-content/uploads/2021/02/image1-8.jpg"
+                  src={Birthday}
                   alt="blog"
                 />
                 <div className="px-6 py-8">
@@ -113,6 +121,7 @@ export default function page() {
           </a>
         </div>
       </section>
+      <Logo />
     </div>
   );
 }

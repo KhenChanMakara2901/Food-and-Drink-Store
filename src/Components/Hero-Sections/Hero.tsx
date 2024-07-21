@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div className=" w-full mx-auto p-4">
       <div className="max-h-[500px] relative">
-        <div className=" absolute w-full h-full text-gray-200 max-h-[500px] bg-black/40  flex flex-col justify-center items-center">
+        <div className=" absolute w-full h-full text-gray-200 max-h-[500px] bg-black/40  flex flex-col justify-center items-center rounded-2xl">
           <h1 className="px-4 text-4xl sm:text-5xl lg:text-7xl md:text-6xl font-Pro text-center">
             <ReactTyped
               strings={['The<span className="text-yellow-500">Shop☕️</span>']}
@@ -29,7 +29,7 @@ export default function Hero() {
           </button>
         </div>
         <Image
-          className="w-full max-h-[500px] object-cover"
+          className="w-full max-h-[500px] object-cover rounded-2xl"
           src={Hero1}
           alt="/"
         />

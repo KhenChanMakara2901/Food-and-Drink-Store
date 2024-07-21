@@ -2,13 +2,14 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { TbHomeFilled } from "react-icons/tb";
-import { FaUsers, FaHome, FaHistory } from "react-icons/fa";
+import { FaUsers, FaHome } from "react-icons/fa";
 import {
   MdRestaurantMenu,
   MdDeliveryDining,
   MdOutlineRestaurantMenu,
   MdContactSupport,
   MdBookmarkAdded,
+  MdRealEstateAgent,
 } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
 import { IoFastFoodSharp } from "react-icons/io5";
@@ -55,12 +56,12 @@ export default function Navbar() {
               </li>
 
               <li className="text-xl py-4 flex ">
-                <FaHistory size={25} className="mr-2" />
+                <MdRealEstateAgent size={25} className="mr-2" />
                 <Link
-                  className="  hover:underline hover:scale-105  font-abc"
-                  href="#"
+                  className="hover:underline hover:scale-105  font-abc"
+                  href="/State"
                 >
-                  History
+                  State
                 </Link>
               </li>
               <li className="text-xl py-4 flex ">
@@ -143,10 +144,13 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="text-xl py-4 flex ">
-              <FaHistory size={25} className="mr-2" />
-              <a className=" hover:scale-95 hover:underline font-abc" href="#">
-                History
-              </a>
+              <MdRealEstateAgent size={25} className="mr-2" />
+              <Link
+                className=" hover:scale-95 hover:underline font-abc"
+                href="/State"
+              >
+                State
+              </Link>
             </li>
             <li className="text-xl py-4 flex ">
               <MdDeliveryDining size={30} className="mr-2" />

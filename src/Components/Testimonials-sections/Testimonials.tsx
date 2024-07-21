@@ -16,7 +16,7 @@ export default function Testimonials() {
             </h1>
             <div className="mt-10 lg:mt-20 lg:flex lg:items-center">
               <Image
-                className="object-cover object-center w-full lg:w-[32rem] rounded-lg h-96"
+                className="object-cover object-center w-full lg:w-[32rem] rounded-3xl h-96"
                 src={Customer}
                 alt="Image"
               />

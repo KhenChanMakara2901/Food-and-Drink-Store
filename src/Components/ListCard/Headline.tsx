@@ -10,7 +10,7 @@ export default function Headline() {
   return (
     <div className="max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
       <div className="rounded-xl relative">
-        <div className="absolute w-full h-full bg-black/50 rounded-xl text-white">
+        <div className="absolute w-full h-full bg-black/50  text-white rounded-3xl">
           <p className="font-Pro text-2xl px-2 pt-4 text-stone-200">
             Sun's Out, BOGO's Out
           </p>
@@ -25,13 +25,13 @@ export default function Headline() {
           </Link>
         </div>
         <Image
-          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl "
+          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-3xl"
           src={Card1}
           alt="Image"
         />
       </div>
       <div className="rounded-xl relative">
-        <div className="absolute w-full h-full bg-black/50 rounded-xl text-white">
+        <div className="absolute w-full h-full bg-black/50 rounded-3xl text-white">
           <p className="font-Pro text-2xl px-2 pt-4 text-stone-200">
             Cooked Noodles
           </p>
@@ -46,13 +46,13 @@ export default function Headline() {
           </Link>
         </div>
         <Image
-          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
+          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-3xl"
           src={Card2}
           alt="Image"
         />
       </div>
       <div className="rounded-xl relative">
-        <div className="absolute w-full h-full bg-black/50 rounded-xl text-white">
+        <div className="absolute w-full h-full bg-black/50 rounded-3xl text-white">
           <p className="font-Pro text-2xl px-2 pt-4 text-stone-200">
             Garnish on White Plate
           </p>
@@ -69,7 +69,7 @@ export default function Headline() {
           </Link>
         </div>
         <Image
-          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl "
+          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-3xl "
           src={Card3}
           alt="Image"
         />

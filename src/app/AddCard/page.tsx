@@ -149,7 +149,7 @@ export default function page() {
                 href="https://khmergrs.com/"
                 className="font-Pro underline hover:text-black"
               >
-                Khmer GRS School
+                Khmer GRS Academy
               </a>
             </p>
           </div>

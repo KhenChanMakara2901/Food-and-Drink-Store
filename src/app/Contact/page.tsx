@@ -1,5 +1,5 @@
+"use client";
 import React from "react";
-
 export default function () {
   return (
     <div className="max-w-[1640px] px-4 py-2">

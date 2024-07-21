@@ -1,5 +1,5 @@
+"use client";
 import React from "react";
-
 export default function page() {
   return (
     <div className="max-w-[1640px] px-4 py-1">
@@ -31,8 +31,7 @@ export default function page() {
               </div>
             </div>
           </a>
-
-          <a href="">
+          <a href="/">
             <div className="flex w-full">
               <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-gray-950 shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <img
@@ -52,8 +51,7 @@ export default function page() {
               </div>
             </div>
           </a>
-
-          <a href="">
+          <a href="/">
             <div className="flex w-full">
               <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-gray-950 shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <img

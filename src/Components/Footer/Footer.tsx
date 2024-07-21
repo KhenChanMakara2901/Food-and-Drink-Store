@@ -85,15 +85,37 @@ export default function Footer() {
               </div>
             </div>
           </div>
-
           <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
-
           <div>
             <p className="text-center text-gray-500 dark:text-gray-400 font-Pro">
-              © 2024 All Rights Reserved By Next.JS
+              © 2024 All Rights Reserved By
+              <a
+                className="underline underline-offset-2 hover:text-white"
+                target="-blank"
+                href="https://nextjs.org/"
+              >
+                Next JS
+              </a>
             </p>
             <p className="text-center text-gray-500 dark:text-gray-400 font-Pro">
-              © Distributed By KHEN CHANNMAKARA
+              © Teaching by Teacher
+              <a
+                className="underline underline-offset-2 hover:text-white"
+                target="-blank"
+                href="https://t.me/Kongsun"
+              >
+                KONGSON
+              </a>
+            </p>
+            <p className="text-center text-gray-500 dark:text-gray-400 font-Pro">
+              © Create By
+              <a
+                className="underline underline-offset-2 hover:text-white"
+                target="-blank"
+                href="https://t.me/RupidSeVen"
+              >
+                KHEN CHANNMAKARA
+              </a>
             </p>
           </div>
         </div>

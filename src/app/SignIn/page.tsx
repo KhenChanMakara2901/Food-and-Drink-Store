@@ -1,13 +1,15 @@
+"use client";
 import React from "react";
-
+import Image from "next/image";
+import Food from "@/public/Sign In/Food.svg";
 export default function page() {
   return (
     <div className="max-w-[1640px] px-4 py-2">
-      <div className=" bg-slate-200 rounded-3xl flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <img
+      <div className="bg-white rounded-3xl flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+        <div className="sm:mx-auto sm:w-full sm:max-w-sm animate-slide-in">
+          <Image
             alt="Your Company"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+            src={Food}
             className="mx-auto h-10 w-auto"
           />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
@@ -46,7 +48,8 @@ export default function page() {
                 </label>
                 <div className="text-sm">
                   <a
-                    href="#"
+                    target="-blank"
+                    href="https://myaccount.google.com/intro/signinoptions/password"
                     className="font-semibold text-indigo-600 hover:text-indigo-500"
                   >
                     Forgot password?
@@ -76,12 +79,13 @@ export default function page() {
           </form>
 
           <p className="mt-10 text-center text-sm text-gray-500">
-            Not a member?{" "}
+            Not a member?
             <a
-              href="#"
+              target="-blank"
+              href="https://accounts.google.com/v3/signin/identifier?dsh=S1812573153%3A1655944654029516&flowEntry=ServiceLogin&flowName=WebLiteSignIn&ifkv=AX3vH39E0iYVTmn-NoMNM_C35EPrno8LWsRx2Qhr0HApkVLZ-Zc_Vql8ouaSQOiXzEmthrpOPAV5"
               className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
             >
-              Start a 14 day free trial
+              Sign Up with Google
             </a>
           </p>
         </div>

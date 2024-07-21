@@ -4,13 +4,12 @@ import Link from "next/link";
 export default function page() {
   return (
     <div className="max-w-[1640px] px-4 py-1">
-      <section className="bg-slate-200 py-8 antialiased md:py-16 rounded-3xl">
+      <section className="bg-white py-8 antialiased md:py-16 rounded-3xl">
         <div className="mx-auto max-w-screen-xl px-4 2xl:px-0 animate-slide-in">
           <div className="mx-auto max-w-5xl">
-            <h2 className="text-4xl font-Pro text-yellow-500 sm:text-2xl">
+            <h2 className="text-4xl font-Pro text-gray-950 sm:text-2xl">
               Payment
             </h2>
-
             <div className="mt-6 sm:mt-8 lg:flex lg:items-start lg:gap-12">
               <form
                 action="#"
@@ -29,7 +28,6 @@ export default function page() {
                       required
                     />
                   </div>
-
                   <div className="col-span-2 sm:col-span-1">
                     <label className="mb-2 block text-sm font-medium text-gray-900 dark:text-white">
                       Card number*
@@ -89,7 +87,6 @@ export default function page() {
                   </button>
                 </Link>
               </form>
-
               <div className="mt-6 grow sm:mt-8 lg:mt-0">
                 <div className="space-y-4 rounded-lg border border-gray-100 bg-gray-50 p-6 dark:border-gray-700 dark:bg-blue-700">
                   <div className="space-y-2">
@@ -101,7 +98,6 @@ export default function page() {
                         $$$$
                       </dd>
                     </dl>
-
                     <dl className="flex items-center justify-between gap-4">
                       <dt className="text-base font-Pro text-gray-500 dark:text-white">
                         Savings
@@ -110,7 +106,6 @@ export default function page() {
                         -$$$$
                       </dd>
                     </dl>
-
                     <dl className="flex items-center justify-between gap-4">
                       <dt className="text-base font-Pro text-gray-500 dark:text-white">
                         Store Pickup
@@ -119,7 +114,6 @@ export default function page() {
                         $$$$
                       </dd>
                     </dl>
-
                     <dl className="flex items-center justify-between gap-4">
                       <dt className="text-base font-Pro text-gray-500 dark:text-white">
                         Tax
@@ -129,7 +123,6 @@ export default function page() {
                       </dd>
                     </dl>
                   </div>
-
                   <dl className="flex items-center justify-between gap-4 border-t border-gray-200 pt-2 dark:border-gray-700">
                     <dt className="text-base font-Pro text-gray-900 dark:text-white">
                       Total
@@ -141,25 +134,23 @@ export default function page() {
                 </div>
               </div>
             </div>
-
-            <p className="mt-6 text-center text-gray-500 dark:text-gray-400 sm:mt-8 lg:text-left">
-              Payment processed by
+            <p className="mt-6 text-center text-gray-900 dark:text-gray-900 sm:mt-8 lg:text-left">
+              Create And Schoolarship By
               <a
-                href="#"
-                title=""
-                className="font-medium text-primary-700 underline hover:no-underline dark:text-primary-500"
+                target="-blank"
+                href="https://nextjs.org/"
+                className="font-Pro underline hover:text-black"
               >
-                Paddle
+                Next Js
               </a>
-              for
+              and
               <a
-                href="#"
-                title=""
-                className="font-medium text-primary-700 underline hover:no-underline dark:text-primary-500"
+                target="-blank"
+                href="https://khmergrs.com/"
+                className="font-Pro underline hover:text-black"
               >
-                Flowbite LLC
+                Khmer GRS School
               </a>
-              - United States Of America
             </p>
           </div>
         </div>

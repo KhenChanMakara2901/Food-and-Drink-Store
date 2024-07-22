@@ -146,10 +146,10 @@ export default function page() {
               and
               <a
                 target="-blank"
-                href="https://khmergrs.com/"
+                href="https://t.me/khmercodeacademy"
                 className="font-Pro underline hover:text-black"
               >
-                Khmer GRS Academy
+                Khmer Code Academy
               </a>
             </p>
           </div>

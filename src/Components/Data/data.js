@@ -69,7 +69,7 @@ export const data = [
     name: "Cheeseburger",
     category: "burger",
     image:
-      "https://images.pexels.com/photos/21820165/pexels-photo-21820165/free-photo-of-cheeseburger-on-black-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-photo/delicious-3d-burger-with-mountains-scenery_23-2150914701.jpg?t=st=1721656027~exp=1721659627~hmac=a3113568d9d790fd483a512caf9d23ab42636b65aea3b4fb849725ac07696774&w=1480",
     price: "$$",
   },
   {
@@ -77,7 +77,7 @@ export const data = [
     name: "Delicious Burger",
     category: "burger",
     image:
-      "https://images.pexels.com/photos/15010291/pexels-photo-15010291/free-photo-of-delicious-burger-on-board.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-photo/delicious-3d-burger-with-mountains-scenery_23-2150914641.jpg?t=st=1721656124~exp=1721659724~hmac=b1cd1d02abe90636d2cb305f67e34bea186ccd2dc2d020e50e1033f34a561484&w=2000",
     price: "$$$",
   },
   {

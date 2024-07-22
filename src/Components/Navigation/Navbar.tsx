@@ -23,7 +23,7 @@ export default function Navbar() {
         <div onClick={() => setNav(!nav)} className="cursor-pointer mt-2">
           <AiOutlineMenu
             size={30}
-            className="text-amber-700 xl:hidden lg:hidden mt-2 mr-0"
+            className="text-white xl:hidden lg:hidden mt-2 mr-0"
           />
         </div>
 
@@ -117,8 +117,8 @@ export default function Navbar() {
           size={25}
           className="absolute right-4 top-4 cursor-pointer"
         />
-        <h2 className="text-xl p-4 text-yellow-600  font-serif font-Own">
-          DRINK <span className="font-bold">AND FOOD</span>
+        <h2 className="text-xl p-4 text-yellow-600  font-Logo">
+          <span className="font-Logo"> Burger</span>
         </h2>
         <nav>
           <ul className="flex flex-col p-4 text-yellow-600">

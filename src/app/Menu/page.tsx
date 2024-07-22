@@ -53,7 +53,7 @@ export default function page() {
               onClick={() => filterType("burger")}
               className="m-1 bg-white border-yellow-900 text-yellow-900 hover:bg-yellow-600 hover:text-gray-900 font-Pro"
             >
-              Fast Food
+              Burger
             </button>
             <button
               onClick={() => filterType("chicken")}
@@ -108,7 +108,7 @@ export default function page() {
               <div className="flex justify-between px-2 py-4">
                 <p className="font-abc">{item.name}</p>
                 <p>
-                  <span className="bg-black text-yellow-800 p-1 rounded-full">
+                  <span className="bg-black text-white p-1 rounded-full">
                     {item.price}
                   </span>
                 </p>

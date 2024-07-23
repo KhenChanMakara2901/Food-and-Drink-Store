@@ -20,14 +20,16 @@ export default function ListOrder() {
     );
   };
   return (
-    <div className="max-w--[1640px] m-auto px-4 py-12">
-      <h1 className="text-white font-bold font-Pro text-4xl text-center -mt-12  ">
-        Our
-        <span className="text-yellow-500 text-5xl">↓Products↓</span>
+    <div className="max-w-[1640px] m-auto px-4 py-12">
+      <h1 className="text-white font-bold font-Pro text-xl text-center -mt-12  ">
+        ☆ FULL LUNCH AND DINNER MENU ☆ <br />
+        <span className="text-yellow-500 text-5xl">
+          Traditional Food Cuisine
+        </span>
       </h1>
       <div className="flex flex-col lg:flex-row justify-between">
         <div>
-          <p className="font-bold text-zinc-300 font-Pro">Category</p>
+          <p className="font-bold text-zinc-300 font-Pro">Order Category</p>
           <div className="flex justify-between flex-wrap">
             <button
               onClick={() => setFoods(data)}
@@ -42,10 +44,10 @@ export default function ListOrder() {
               Drink
             </button>
             <button
-              onClick={() => filterType("bakery")}
+              onClick={() => filterType("food")}
               className="m-1 bg-white border-yellow-900 text-yellow-900 hover:bg-yellow-600 hover:text-gray-900 font-Pro"
             >
-              Bakery
+              Food
             </button>
             <button
               onClick={() => filterType("burger")}
@@ -62,7 +64,7 @@ export default function ListOrder() {
           </div>
         </div>
         <div>
-          <p className="font-bold text-zinc-300 font-Pro">Price</p>
+          <p className="font-bold text-zinc-300 font-Pro">Order Price</p>
           <div className="flex justify-between max-w-[390px] w-full">
             <button
               onClick={() => filterPrice("$")}
@@ -91,7 +93,7 @@ export default function ListOrder() {
           </div>
         </div>
       </div>
-      <Link href="/AddCard">
+      <Link href="/Menu">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
           {food.map((item, index) => (
             <div

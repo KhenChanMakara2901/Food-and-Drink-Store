@@ -118,7 +118,7 @@ export default function Navbar() {
           className="absolute right-4 top-4 cursor-pointer"
         />
         <h2 className="text-xl p-4 text-yellow-600  font-Logo">
-          <span className="font-Logo"> Burger</span>
+          <span className="font-Logo">Food B Burger</span>
         </h2>
         <nav>
           <ul className="flex flex-col p-4 text-yellow-600">

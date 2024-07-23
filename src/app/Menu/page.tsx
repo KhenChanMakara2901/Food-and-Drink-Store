@@ -2,8 +2,8 @@
 import Team from "@/src/Components/Team-sections/Team";
 import { data } from "./data.js";
 import React, { useState } from "react";
-import Category from "@/src/Components/CategoryCard/Category";
 import Link from "next/link.js";
+import Book from "@/src/Components/Booking/Book";
 export default function page() {
   const [food, setFoods] = useState(data);
   const filterType = (category) => {
@@ -22,11 +22,12 @@ export default function page() {
   };
   return (
     <div className="max-w-[1640px] m-auto px-4 py-12">
-      <h1 className="text-white font-Pro text-3xl text-center -mt-12 animate-fade-in">
-        Our
-        <span className="text-yellow-500 text-4xl font-Pro">↪Menu↪</span>
+      <h1 className="text-white font-bold font-Pro text-xl text-center -mt-12  ">
+        ☆ FULL LUNCH AND DINNER MENU ☆ <br />
+        <span className="text-yellow-500 text-3xl">
+          ✘Traditional Food Cuisine✘
+        </span>
       </h1>
-
       <div className="flex flex-col lg:flex-row justify-between animate-slide-in">
         <div>
           <p className="font-bold text-zinc-300 font-Pro">Category</p>
@@ -56,10 +57,10 @@ export default function page() {
               Burger
             </button>
             <button
-              onClick={() => filterType("chicken")}
+              onClick={() => filterType("khmer food")}
               className="m-1 bg-white border-yellow-900 text-yellow-900 hover:bg-yellow-600 hover:text-gray-900 font-Pro"
             >
-              Chicken
+              Other
             </button>
           </div>
         </div>
@@ -117,8 +118,8 @@ export default function page() {
           ))}
         </div>
       </Link>
-      <Category />
       <Team />
+      <Book />
     </div>
   );
 }

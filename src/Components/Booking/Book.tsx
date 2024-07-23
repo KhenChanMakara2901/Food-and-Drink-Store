@@ -7,7 +7,7 @@ export default function Book() {
         <div className="container px-6 py-12 mx-auto">
           <div className="lg:flex lg:items-center lg:-mx-6">
             <div className="lg:w-1/2 lg:mx-6">
-              <h1 className="text-2xl font-Text text-yellow-500 capitalize lg:text-3xl">
+              <h1 className="text-5xl font-Text text-yellow-500 capitalize lg:text-5xl">
                 RESERVATION——
                 <span className="font-Text text-gray-950">
                   <br /> Book A Table Online
@@ -15,18 +15,18 @@ export default function Book() {
               </h1>
               <div className="mt-6 space-y-8 md:mt-8">
                 <p className="flex items-start -mx-2">
-                  <span className="mx-2 text-white truncate w-72 dark:text-gray-950 font-Pro">
+                  <span className="mx-2 text-white text-xl truncate w-72 dark:text-gray-950 font-Pro">
                     📍 Sen Sok Tek Tla Phnum Penh 711-2880 Nulla St. Mankato
                     Mississippi 96522
                   </span>
                 </p>
                 <p className="flex items-start -mx-2">
-                  <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-950 font-Pro">
+                  <span className="mx-2 text-gray-700 text-xl truncate w-72 dark:text-gray-950 font-Pro">
                     ☎︎ (+855) 71-325 9328
                   </span>
                 </p>
                 <p className="flex items-start -mx-2">
-                  <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-950 font-Pro">
+                  <span className="mx-2 text-gray-700 text-xl truncate w-72 dark:text-gray-950 font-Pro">
                     📩 khenchannmakara@example.com
                   </span>
                 </p>

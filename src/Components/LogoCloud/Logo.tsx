@@ -10,7 +10,7 @@ import Visa from "@/public/LogoCloud/Visa.svg";
 export default function Logo() {
   return (
     <div className="py-24 sm:py-32">
-      <h2 className="text-center text-lg font-Pro leading-8 text-white">
+      <h2 className="text-center text-3xl font-Pro leading-8 text-white">
         Collaborative partners With
       </h2>
       <div className="mx-auto max-w-7xl px-6 lg:px-8 rounded-3xl">

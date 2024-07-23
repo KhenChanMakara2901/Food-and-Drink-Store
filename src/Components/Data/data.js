@@ -1,72 +1,72 @@
 export const data = [
   {
     id: 1,
-    name: "Iced Coffee Latte ",
+    name: "Drink",
     category: "drink",
     image:
-      "https://images.deliveryhero.io/image/fd-ph/Products/23787939.jpg?width=%s",
+      "https://img.freepik.com/free-photo/3d-rendering-chinese-reunion-dinner-drink_23-2151089087.jpg?t=st=1721669096~exp=1721672696~hmac=66a7a5892952eb13ae5427501f62e8f360df059cfeb1ff33962a7017cb88b219&w=1800",
     price: "$$$$",
   },
   {
     id: 2,
-    name: "LyChee Juice",
+    name: "Drink",
     category: "drink",
     image:
-      "https://images.deliveryhero.io/image/fd-ph/Products/23787940.jpg?width=%s",
+      "https://img.freepik.com/free-photo/advertisement-jam-with-jar-fruit_23-2151258111.jpg?t=st=1721669257~exp=1721672857~hmac=58a182cca0c66995034022edccb885c912f0fdab94c1daf6b747d9536bc9ca5c&w=1800",
     price: "$",
   },
   {
     id: 3,
-    name: "Mocha",
+    name: "Drink",
     category: "drink",
     image:
-      "https://images.deliveryhero.io/image/fd-ph/Products/23787918.jpg?width=%s",
+      "https://img.freepik.com/free-photo/fresh-lemon-slice-glass-perfect-summer-refreshment-generated-by-artificial-intelligence_188544-128867.jpg?t=st=1721669458~exp=1721673058~hmac=6508327ac4ef0650f1931321419c918cbd94ddfdf65b99eaa2b3ac5aebfef9f5&w=2000",
     price: "$$",
   },
   {
     id: 4,
-    name: "Honey Lime Black Coffee",
+    name: "Drink",
     category: "drink",
     image:
-      "https://images.deliveryhero.io/image/fd-kh/Products/525.jpg?width=%s",
+      "https://img.freepik.com/free-photo/fresh-organic-orange-slices-rustic-table-generative-ai_188544-8655.jpg?t=st=1721670638~exp=1721674238~hmac=8564f969345d6adc32618fa9f435f16629419a946fca6ede48e943b17a5799ed&w=2000",
     price: "$$$",
   },
 
   {
     id: 5,
-    name: "Sliced Bread On Brown Wooden",
-    category: "bakery",
+    name: "Food",
+    category: "food",
     image:
-      "https://images.pexels.com/photos/3851011/pexels-photo-3851011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-photo/grilled-steak-vegetable-plate-fire-background-generative-ai_188544-8883.jpg?t=st=1721669846~exp=1721673446~hmac=2bbe92bb372c869b1d7959cc7c21191aaf238f37bf86be42f022ec31b2602cac&w=2000",
     price: "$$",
   },
   {
     id: 6,
-    name: "Cinnamon Roll on Plate",
-    category: "bakery",
+    name: "Food",
+    category: "food",
     image:
-      "https://images.pexels.com/photos/267308/pexels-photo-267308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-photo/ingredients-grilled-wood-flame-plate-generative-ai_188544-8881.jpg?t=st=1721670195~exp=1721673795~hmac=145cde2cc2a2f1a6e32db987eb8e8b4e904b87120fbfb4b66f1ead07d658e839&w=2000",
     price: "$$$",
   },
   {
     id: 7,
-    name: "Delicious Pastries in Boxes",
-    category: "bakery",
+    name: "Food",
+    category: "Food",
     image:
-      "https://images.pexels.com/photos/186859/pexels-photo-186859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-photo/grilled-meat-vegetables-make-gourmet-lunch-generative-ai_188544-8879.jpg?t=st=1721670058~exp=1721673658~hmac=f2f82053716c2d5258c605da2bd69d1832a068c56adf3af1be7c91df65c1221e&w=2000",
     price: "$$$$",
   },
   {
     id: 8,
-    name: "Brown Bread on the Plate",
-    category: "bakery",
+    name: "Food",
+    category: "food",
     image:
-      "https://images.pexels.com/photos/9694612/pexels-photo-9694612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-photo/view-delicious-food-chinese-new-year-reunion-dinner_23-2151040716.jpg?t=st=1721670445~exp=1721674045~hmac=4fab9f7cf1c1cb06ffe7ec1bb0697b148d805c58b301ea1c489ee5dcb8480d57&w=1800",
     price: "$",
   },
   {
     id: 9,
-    name: "Cheeseburger",
+    name: "Burger",
     category: "burger",
     image:
       "https://img.freepik.com/free-photo/delicious-3d-burger-with-mountains-scenery_23-2150914701.jpg?t=st=1721656027~exp=1721659627~hmac=a3113568d9d790fd483a512caf9d23ab42636b65aea3b4fb849725ac07696774&w=1480",
@@ -74,58 +74,58 @@ export const data = [
   },
   {
     id: 10,
-    name: "Delicious Burger",
+    name: "Burger",
     category: "burger",
     image:
-      "https://img.freepik.com/free-photo/delicious-3d-burger-with-mountains-scenery_23-2150914641.jpg?t=st=1721656124~exp=1721659724~hmac=b1cd1d02abe90636d2cb305f67e34bea186ccd2dc2d020e50e1033f34a561484&w=2000",
+      "https://img.freepik.com/free-photo/view-3d-burger-with-nature-scenery_23-2150914787.jpg?t=st=1721670522~exp=1721674122~hmac=637ec6b40f56c85d98cda68ded26b13953e525e4ec0ecc4488d3df498f84c735&w=2000",
     price: "$$$",
   },
   {
     id: 11,
-    name: "Delicious Burger",
+    name: "Burger",
     category: "burger",
     image:
-      "https://images.pexels.com/photos/10701945/pexels-photo-10701945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-photo/delicious-3d-burger-with-mountains-scenery_23-2150914639.jpg?t=st=1721668601~exp=1721672201~hmac=b7db34df56f212c2740c38ca36d29e6d163dbf63d9f6d80b0af0c4b3e870501d&w=1800",
     price: "$$$$",
   },
   {
     id: 12,
-    name: "Close-Up Shot of a Delicious Hamburger",
+    name: "Burger",
     category: "burger",
     image:
-      "https://images.pexels.com/photos/12325104/pexels-photo-12325104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-photo/delicious-3d-burger-with-mountains-scenery_23-2150914699.jpg?t=st=1721668690~exp=1721672290~hmac=a64851e82101cbc6120863117eefadb5deaf53976cbcadb5cd371e1c5d256f61&w=1800",
     price: "$",
   },
   {
     id: 13,
-    name: "Wings",
+    name: "Chicken",
     category: "chicken",
     image:
-      "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-photo/grilled-meat-veggie-plate-wood-generative-ai_188544-9094.jpg?t=st=1721671031~exp=1721674631~hmac=c8e355bd3ad0dc36ba9527419cb274741667b316e42fc3a81a12fa62c2513a66&w=2000",
     price: "$$",
   },
   {
     id: 14,
-    name: "Baked Chicken",
+    name: "Chicken",
     category: "chicken",
     image:
-      "https://images.unsplash.com/photo-1594221708779-94832f4320d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpY2tlbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+      "https://img.freepik.com/free-photo/close-up-delicious-chicken-meal_23-2150741653.jpg?t=st=1721670923~exp=1721674523~hmac=be4ea6addb7f8ab0f46f075f24734c17806a56464e851aac3941781aa58a63ba&w=2000",
     price: "$$$$",
   },
   {
     id: 15,
-    name: "Chicken Tenders",
+    name: "Chicken",
     category: "chicken",
     image:
-      "https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoaWNrZW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "https://img.freepik.com/free-photo/close-up-delicious-chicken-meal_23-2150741811.jpg?t=st=1721670788~exp=1721674388~hmac=5c4e69ec151f4136e383d110ac39337c702fe841116ea8d8411243d187b7c1de&w=1480",
     price: "$",
   },
   {
     id: 16,
-    name: "Chicken Kabob",
+    name: "Chicken",
     category: "chicken",
     image:
-      "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-photo/close-up-delicious-chicken-meal_23-2150741813.jpg?t=st=1721670744~exp=1721674344~hmac=e25da95aafa807f6cd4c5a36db34bde503b2ba5bb0ac1263bea4921c20197418&w=1480",
     price: "$$$",
   },
 ];

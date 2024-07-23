@@ -25,10 +25,10 @@ export default function Hero() {
         />
       </div>
       <div>
-        <h1 className="pt-7 text-center text-4xl text-zinc-300 font-Pro animate-fade-in-in">
-          Our Original
-          <span className="text-yellow-500 text-6xl underline underline-offset-4">
-            —Foods—
+        <h1 className="pt-7 text-center text-xl text-zinc-300 font-Pro animate-fade-in-in">
+          ✦ MOST ORDERED MENU ✦ <br />
+          <span className="text-yellow-500 text-3xl ">
+            Best Choice of the month
           </span>
         </h1>
       </div>

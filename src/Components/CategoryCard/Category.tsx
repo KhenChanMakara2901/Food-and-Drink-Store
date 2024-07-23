@@ -4,11 +4,8 @@ import { categories } from "../Data/data.js";
 export default function Category() {
   return (
     <div className="max-w-[1640px] px-4 py-12">
-      <h1 className="text-white font-Pro text-4xl text-center">
-        Top Menu item in
-        <span className="text-yellow-500 text-5xl underline underline-offset-4">
-          —Resturents—
-        </span>
+      <h1 className="text-white font-Pro text-5xl text-center">
+        ✳ Traditional Food Cuisine ✳
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 py-6 mt-8">
         {categories.map((item, index) => (

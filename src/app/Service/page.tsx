@@ -7,6 +7,7 @@ import Online from "@/public/Service/Online.png";
 import Support from "@/public/Service/Support.png";
 import Birthday from "@/public/Service/Birthday.png";
 import Logo from "@/src/Components/LogoCloud/Logo";
+import Category from "@/src/Components/CategoryCard/Category";
 
 export default function page() {
   return (
@@ -121,6 +122,7 @@ export default function page() {
           </a>
         </div>
       </section>
+      <Category />
       <Logo />
     </div>
   );

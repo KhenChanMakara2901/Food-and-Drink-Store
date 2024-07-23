@@ -9,9 +9,9 @@ export default function State() {
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
           <div className=" mx-auto max-w-3xl text-left">
             <h2 className="text-3xl font-Pro text-white sm:text-4xl">
-              Reciept Today <br />
-              <span className="text-yellow-500 text-5xl font-Pro underline underline-offset-4">
-                ⟶FOOD AND DRINK⟶
+              Reciept Today 💬 <br />
+              <span className="text-yellow-500 text-4xl font-Pro">
+                𖦹 IN RESTAURENTS 𖦹
               </span>
             </h2>
           </div>

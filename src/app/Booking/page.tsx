@@ -7,7 +7,7 @@ export default function page() {
         <div className="container px-6 py-12 mx-auto">
           <div className="lg:flex lg:items-center lg:-mx-6">
             <div className="lg:w-1/2 lg:mx-6">
-              <h1 className="text-2xl font-Text text-yellow-500 capitalize lg:text-3xl">
+              <h1 className="text-4xl font-Text text-yellow-500 capitalize lg:text-4xl">
                 RESERVATION——
                 <span className="font-Text text-gray-950">
                   <br /> Book A Table Online

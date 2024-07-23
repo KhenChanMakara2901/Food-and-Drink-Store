@@ -98,34 +98,34 @@ export const data = [
   },
   {
     id: 13,
-    name: "Wings",
-    category: "chicken",
+    name: "Prahok Ktiss",
+    category: "khmer food",
     image:
-      "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://walkaboutmonkey.com/wp-content/uploads/2019/02/Prahok-Ktiss2-optimized.jpg",
     price: "$$",
   },
   {
     id: 14,
-    name: "Baked Chicken",
-    category: "chicken",
+    name: "Num Pang",
+    category: "khmer food",
     image:
-      "https://images.unsplash.com/photo-1594221708779-94832f4320d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpY2tlbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+      "https://walkaboutmonkey.com/wp-content/uploads/2018/10/Num-Pang-2048x1497-optimized.webp",
     price: "$$$$",
   },
   {
     id: 15,
-    name: "Chicken Tenders",
-    category: "chicken",
+    name: " Crab with Kampot Pepper",
+    category: "khmer food",
     image:
-      "https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoaWNrZW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "https://walkaboutmonkey.com/wp-content/uploads/2019/02/crab-with-kampot-pepper-theCrabKitchen-optimized.jpg",
     price: "$",
   },
   {
     id: 16,
-    name: "Chicken Kabob",
-    category: "chicken",
+    name: "Lok Lak (Stir-fry beef with brown sauce)",
+    category: "khmer food",
     image:
-      "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://d13jio720g7qcs.cloudfront.net/images/guides/origin/638726b08dbe2.jpg",
     price: "$$$",
   },
   {
@@ -149,7 +149,7 @@ export const data = [
     name: " iced americano isolated ",
     category: "drink",
     image:
-      "https://img.freepik.com/premium-photo/iced-black-coffee-iced-americano-isolated-white-background_536380-64.jpg?w=1060",
+      "https://img.freepik.com/free-photo/close-up-delicious-drinks_23-2149132200.jpg?w=1480&t=st=1721711396~exp=1721711996~hmac=f7504bb476e03d0f007422857324504a1aaa9520a4902725a63f4d14add3b202",
     price: "$$",
   },
   {
@@ -256,6 +256,38 @@ export const data = [
     category: "food",
     image:
       "https://img.freepik.com/free-photo/american-shrimp-fried-rice-served-with-chili-fish-sauce-thai-food_1150-26576.jpg?w=1800&t=st=1721655603~exp=1721656203~hmac=2701b3b22b9a3eb0ff66fa055b6e1ee7816de097c5a838a42f1845d97b350f41",
+    price: "$$$",
+  },
+  {
+    id: 33,
+    name: "PRAHOK WITH PORK BELLY",
+    category: "khmer food",
+    image:
+      "https://media.vietravel.com/images/NewsPicture/Prahok-with-pork-belly.jpg",
+    price: "$$",
+  },
+  {
+    id: 34,
+    name: "Khmer Original Food",
+    category: "khmer food",
+    image:
+      "https://cafeindochinerestaurant.com/wp-content/uploads/2023/07/33-1.webp",
+    price: "$$$$",
+  },
+  {
+    id: 35,
+    name: "Khmer Original Food",
+    category: "khmer food",
+    image:
+      "https://cafeindochinerestaurant.com/wp-content/uploads/2023/07/15-1.webp",
+    price: "$",
+  },
+  {
+    id: 36,
+    name: "Khmer Original food",
+    category: "khmer food",
+    image:
+      "https://cafeindochinerestaurant.com/wp-content/uploads/2023/07/60-2.webp",
     price: "$$$",
   },
 ];

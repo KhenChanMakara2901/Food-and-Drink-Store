@@ -13,7 +13,7 @@ export default function page() {
             <div className="mt-6 sm:mt-8 lg:flex lg:items-start lg:gap-12">
               <form
                 action="#"
-                className="w-full rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-blue-700 sm:p-6 lg:max-w-xl lg:p-8"
+                className="w-full rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-950 sm:p-6 lg:max-w-xl lg:p-8"
               >
                 <div className="mb-6 grid grid-cols-2 gap-4">
                   <div className="col-span-2 sm:col-span-1">
@@ -88,7 +88,7 @@ export default function page() {
                 </Link>
               </form>
               <div className="mt-6 grow sm:mt-8 lg:mt-0">
-                <div className="space-y-4 rounded-lg border border-gray-100 bg-gray-50 p-6 dark:border-gray-700 dark:bg-blue-700">
+                <div className="space-y-4 rounded-lg border border-gray-100 p-6 dark:border-gray-700 bg-gray-950">
                   <div className="space-y-2">
                     <dl className="flex items-center justify-between gap-4">
                       <dt className="text-base font-Pro text-gray-500 dark:text-white">

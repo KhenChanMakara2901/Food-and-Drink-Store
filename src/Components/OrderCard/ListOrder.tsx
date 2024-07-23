@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { data } from "../Data/data.js";
-import Link from "next/link.js";
+import Link from "next/link";
 
 export default function ListOrder() {
   const [food, setFoods] = useState(data);

@@ -2,10 +2,10 @@
 import Team from "@/src/Components/Team-sections/Team";
 import { data } from "./data.js";
 import React, { useState } from "react";
-import Link from "next/link.js";
+import Link from "next/link";
 import Book from "@/src/Components/Booking/Book";
 
-export default function page() {
+export default function Page() {
   const [food, setFoods] = useState(data);
   const filterType = (category) => {
     setFoods(

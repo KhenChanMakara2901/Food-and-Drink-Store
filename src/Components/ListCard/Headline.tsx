@@ -12,7 +12,7 @@ export default function Headline() {
       <div className="rounded-xl relative">
         <div className="absolute w-full h-full bg-black/50  text-white rounded-3xl">
           <p className="font-Pro text-2xl px-2 pt-4 text-stone-200">
-            Sun's Out, BOGO's Out
+            Sun Out BOGO Out
           </p>
           <p className="px-2 text-stone-200 font-Pro"> Through 8/26</p>
           <Link href="/Menu">

@@ -1,4 +1,3 @@
-import Hero from "../Components/Hero-sections/Hero";
 import Category from "../Components/CategoryCard/Category";
 import Headline from "../Components/ListCard/Headline";
 import Logo from "../Components/LogoCloud/Logo";
@@ -7,6 +6,7 @@ import State from "../Components/State-sections/State";
 import Team from "../Components/Team-sections/Team";
 import Testimonials from "../Components/Testimonials-sections/Testimonials";
 import Book from "../Components/Booking/Book";
+import Hero from "../Components/Hero-Sections/Hero";
 
 export default function Home() {
   return (

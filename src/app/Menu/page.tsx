@@ -4,6 +4,7 @@ import { data } from "./data.js";
 import React, { useState } from "react";
 import Link from "next/link.js";
 import Book from "@/src/Components/Booking/Book";
+
 export default function page() {
   const [food, setFoods] = useState(data);
   const filterType = (category) => {
@@ -101,11 +102,13 @@ export default function page() {
               key={index}
               className="border bg-white text-yellow-800 shadow-lg hover:scale-110 duration-300 rounded-3xl"
             >
-              <img
-                src={item.image}
-                alt={item.name}
-                className="w-full h-[200px] object-cover rounded-t-3xl"
-              />
+              <picture>
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="w-full h-[200px] object-cover rounded-t-3xl"
+                />
+              </picture>
               <div className="flex justify-between px-2 py-4">
                 <p className="font-abc">{item.name}</p>
                 <p>

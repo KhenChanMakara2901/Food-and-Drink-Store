@@ -14,7 +14,9 @@ export default function Category() {
             className="bg-white  p-4 flex justify-between items-center rounded-3xl"
           >
             <h2 className="font-abc sm:text-xl">{item.name}</h2>
-            <img src={item.image} alt={item.name} className="w-20" />
+            <picture>
+              <img src={item.image} alt={item.name} className="w-20" />
+            </picture>
           </div>
         ))}
       </div>

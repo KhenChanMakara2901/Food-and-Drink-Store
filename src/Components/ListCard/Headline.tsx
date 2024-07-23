@@ -57,7 +57,7 @@ export default function Headline() {
             Garnish on White Plate
           </p>
           <p className="px-2 text-stone-200 font-Pro">
-            Cooked Meat With Vegetable{" "}
+            Cooked Meat With Vegetable
           </p>
           <Link href="/Menu">
             <button className="border-yellow-900 font-Pro  bg-white text-yellow-800 mx-2 absolute bottom-4 hover:bg-yellow-600 hover:text-gray-900 text-end">

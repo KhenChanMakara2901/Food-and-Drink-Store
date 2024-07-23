@@ -1,5 +1,5 @@
-import Category from "../Components/CategoryCard/Category";
 import Hero from "../Components/Hero-sections/Hero";
+import Category from "../Components/CategoryCard/Category";
 import Headline from "../Components/ListCard/Headline";
 import Logo from "../Components/LogoCloud/Logo";
 import ListOrder from "../Components/OrderCard/ListOrder";

@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="mt-6 lg:mt-0 lg:flex-1">
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 <div>
-                  <h3 className="text-gray-700 uppercase dark:text-yellow-500 font-Text text-2xl">
+                  <h3 className="uppercase text-yellow-500 font-Text text-2xl">
                     COMPANY—
                   </h3>
                   <a
@@ -39,7 +39,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                  <h3 className="text-gray-700 uppercase dark:text-yellow-500 font-Text text-2xl">
+                  <h3 className="uppercase text-yellow-500 font-Text text-2xl">
                     Contact—
                   </h3>
 
@@ -64,7 +64,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                  <h3 className="text-gray-700 uppercase dark:text-yellow-500 font-Text text-2xl">
+                  <h3 className="uppercase text-yellow-500 font-Text text-2xl">
                     Opening—
                   </h3>
                   <p className="text-white font-Pro">Monday - Saturday</p>
@@ -74,7 +74,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                  <h3 className="uppercase dark:text-yellow-500 font-Text text-2xl">
+                  <h3 className="uppercase text-yellow-500 font-Text text-2xl">
                     Newsletter—
                   </h3>
                   <p className="text-white font-Pro">

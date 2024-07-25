@@ -8,7 +8,7 @@ import Avatar4 from "@/public/Avatar/Avatar4.png";
 
 export default function Team() {
   return (
-    <div className="max-w-[1640px] px-4 py-2">
+    <div className="max-w-[1640px] m-auto  px-4 py-12">
       <section>
         <div className="container px-6 py-8 mx-auto">
           <h2 className="text-2xl font-abc text-left capitalize lg:text-3xl dark:text-neutral-100">
@@ -20,7 +20,7 @@ export default function Team() {
           <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div className="w-full max-w-xs text-center">
               <Image
-                className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
+                className="object-cover object-center mx-auto rounded-2xl"
                 src={Avatar1}
                 alt="avatar"
               />
@@ -35,7 +35,7 @@ export default function Team() {
             </div>
             <div className="w-full max-w-xs text-center">
               <Image
-                className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
+                className="object-cover object-center mx-auto rounded-2xl"
                 src={Avatar2}
                 alt="avatar"
               />
@@ -50,7 +50,7 @@ export default function Team() {
             </div>
             <div className="w-full max-w-xs text-center">
               <Image
-                className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
+                className="object-cover object-center mx-auto rounded-2xl"
                 src={Avatar3}
                 alt="avatar"
               />
@@ -65,7 +65,7 @@ export default function Team() {
             </div>
             <div className="w-full max-w-xs text-center">
               <Image
-                className="object-cover object-center w-full h-48 mx-auto rounded-2xl"
+                className="object-cover object-center mx-auto rounded-2xl"
                 src={Avatar4}
                 alt="avatar"
               />

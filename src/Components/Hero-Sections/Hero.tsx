@@ -5,7 +5,7 @@ import Image from "next/image";
 import Hero1 from "@/public/Hero/Hero1.png";
 export default function Hero() {
   return (
-    <div className=" w-full mx-auto p-4">
+    <div className="max-w-[1640px] m-auto px-4 py-12">
       <div className="max-h-[500px] relative">
         <div className=" absolute w-full h-full text-gray-200 max-h-[500px] bg-black/40  flex flex-col justify-center items-center rounded-2xl">
           <h1 className="px-4 text-4xl sm:text-5xl lg:text-7xl md:text-6xl font-Pro text-center animate-slide-in">

@@ -3,7 +3,7 @@ import React from "react";
 import { categories } from "../Data/data.js";
 export default function Category() {
   return (
-    <div className="max-w-[1640px] px-4 py-12">
+    <div className="max-w-[1640px] m-auto px-4 py-12">
       <h1 className="text-white font-Pro text-5xl text-center">
         ✳ Traditional Food Cuisine ✳
       </h1>

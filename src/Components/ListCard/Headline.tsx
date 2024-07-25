@@ -8,7 +8,7 @@ import Card2 from "@/public/Card/Card2.png";
 import Card3 from "@/public/Card/Card3.png";
 export default function Headline() {
   return (
-    <div className="max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
+    <div className="max-w-[1640px] m-auto p-4 py-12 grid md:grid-cols-3 gap-6">
       <div className="rounded-xl relative">
         <div className="absolute w-full h-full bg-black/50  text-white rounded-3xl">
           <p className="font-Pro text-2xl px-2 pt-4 text-stone-200">
@@ -25,7 +25,7 @@ export default function Headline() {
           </Link>
         </div>
         <Image
-          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-3xl"
+          className="max-h-[160px] md:max-h-[200px] object-cover rounded-3xl"
           src={Card1}
           alt="Image"
         />
@@ -46,7 +46,7 @@ export default function Headline() {
           </Link>
         </div>
         <Image
-          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-3xl"
+          className="max-h-[160px] md:max-h-[200px] object-cover rounded-3xl"
           src={Card2}
           alt="Image"
         />
@@ -69,7 +69,7 @@ export default function Headline() {
           </Link>
         </div>
         <Image
-          className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-3xl "
+          className="max-h-[160px] md:max-h-[200px] object-cover rounded-3xl "
           src={Card3}
           alt="Image"
         />

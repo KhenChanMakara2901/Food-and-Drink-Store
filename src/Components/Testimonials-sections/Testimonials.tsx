@@ -4,7 +4,7 @@ import Image from "next/image";
 import Customer from "@/public/Customer/Customer.png";
 export default function Testimonials() {
   return (
-    <div className="max-w-[1640px] px-4 py-2">
+    <div className="max-w-[1640px] m-auto px-4 py-12">
       <section className="bg-white dark:bg-gray-950 rounded-3xl">
         <div className="relative flex">
           <div className="min-h-screen lg:w-1/3"> </div>
@@ -16,7 +16,7 @@ export default function Testimonials() {
             </h1>
             <div className="mt-10 lg:mt-20 lg:flex lg:items-center">
               <Image
-                className="object-cover object-center w-full lg:w-[32rem] rounded-3xl h-96"
+                className="object-cover object-center lg:w-[32rem] rounded-3xl"
                 src={Customer}
                 alt="Image"
               />
